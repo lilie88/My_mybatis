@@ -37,8 +37,7 @@ namespace是映射文件的路径,也就是接口的全类名，就实现了接�
     <select id="getUserListByMap_foreach_map" resultType="User"  parameterType="Map">
         select * from smbms_user where gender=#{aaa} and userRole in
         <foreach collection="bbb" item="rolearray" open="(" separator="," close=")">  <!--open是以什么开头，separator以什么分割，close以什么结束-->
-            #{rolearray} <!-- 注意用户给的参数，一定要和别名item一致-->
-            <!-- 集合也是  一样的步骤，但是参数值肯定不一样，collectio就是list。别人也是自己起，后面都一样。在这没写-->
+            #{rolearray}
         </foreach>
 
     </select>
