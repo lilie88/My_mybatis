@@ -1,0 +1,22 @@
+<component name="libraryTable">
+  <library name="架包">
+    <CLASSES>
+      <root url="jar://F:/微信文档/WeChat Files/lbw666_666/Files/架包/mysql-connector-java-5.1.0-bin.jar!/" />
+      <root url="jar://F:/微信文档/WeChat Files/lbw666_666/Files/架包/log4j-1.2.14.jar!/" />
+      <root url="jar://F:/微信文档/WeChat Files/lbw666_666/Files/架包/junit-4.12.jar!/" />
+      <root url="jar://F:/微信文档/WeChat Files/lbw666_666/Files/架包/jstl.jar!/" />
+      <root url="jar://F:/微信文档/WeChat Files/lbw666_666/Files/架包/dom4j-1.6.1.jar!/" />
+      <root url="jar://F:/微信文档/WeChat Files/lbw666_666/Files/架包/commons-dbutils-1.6.jar!/" />
+      <root url="jar://F:/微信文档/WeChat Files/lbw666_666/Files/架包/mybatis-3.2.2.jar!/" />
+      <root url="jar://F:/微信文档/WeChat Files/lbw666_666/Files/架包/mysql-connector-java-5.1.32.jar!/" />
+      <root url="file://F:/微信文档/WeChat Files/lbw666_666/Files/架包" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://F:/微信文档/WeChat Files/lbw666_666/Files/架包/mybatis-3.2.2-sources.jar!/" />
+      <root url="file://F:/微信文档/WeChat Files/lbw666_666/Files/架包" />
+    </SOURCES>
+    <jarDirectory url="file://F:/微信文档/WeChat Files/lbw666_666/Files/架包" recursive="false" />
+    <jarDirectory url="file://F:/微信文档/WeChat Files/lbw666_666/Files/架包" recursive="false" type="SOURCES" />
+  </library>
+</component>

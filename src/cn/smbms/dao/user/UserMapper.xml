@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <!DOCTYPE mapper
+                PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+                "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="cn.smbms.dao.user.UserDao"><!--，引入接口的路径，mapper就相当于做了一个实现接口的类， mapper只有一个属性,
+namespace是映射文件的路径,也就是接口的全类名，就实现了接口和mapper文件的一一对应-->
+<!--映射文件，只有创建mapper文件，才能利用对象操作表 -->
+<!--id值最好和接口中的方法名一致，因为接口是通过id找到sql语句的 -->
+<select id="count" resultType="int"><!--resulttype是返回类型，也就是查询的结果是什么类型，这里查的是count，所以是int类型的-->
+    select count(1) as count from smbms_user
+</select>
+
+<!--<select id="getListUser" resultType="cn.smbms.pojo.User">-->
+    <select id="getListUser" resultType="User"><!--这查的是表的所有内容，包括名字啊，年龄啊，所以返回的是对象类型，也就是user，只要返回类型是对象类型，就要域名写完整
+类型，但是这要写完整，加域名。后来又不加域名，是因为mybatis配置文件中设置了<typeAliases>标签-->
+    select * from smbms_user
+</select>
+
+    <!-- parameterType的运用，也就是sql语句的条件查询-->
+    <select id="ListUser" resultType="User"  parameterType="int"><!-- parameterType是id的类型，所以是int类型-->
+        select * from smbms_user where id=#{p}
+                                       </select>
+
+    <!-- 参数为数组的foreach查询-->
+    <select id="getUserListByRoleId_foreach_array" resultType="User"  parameterType="int">
+        select * from smbms_user where userRole in
+       <foreach collection="array" item="rolearray" open="(" separator="," close=")">  <!--open是以什么开头，separator以什么分割，close以什么结束，collection是你要循环的什么，这里是数组-->
+        #{rolearray} <!-- 注意用户给的参数，一定要和别名item一致-->
+        <!-- 集合也是  一样的步骤，但是参数值肯定不一样，collectio就是list。别人也是自己起，后面都一样。在这没写-->
+       </foreach>
+
+    </select>
+
+
+    <!-- 参数为map的foreach多参数查询，也就是条件是两个复选框，或者多个，这是一个复选框，一个单选框-->
+    <select id="getUserListByMap_foreach_map" resultType="User"  parameterType="Map">
+        select * from smbms_user where gender=#{aaa} and userRole in
+        <foreach collection="bbb" item="rolearray" open="(" separator="," close=")">  <!--open是以什么开头，separator以什么分割，close以什么结束-->
+            #{rolearray}
+        </foreach>
+
+    </select>
+
+    <!-- 对象封装-->
+    <select id="LListUser" resultType="User"  parameterType="User">
+         select * from smbms_user where id=#{id} and userName=#{userName}
+    </select>
+
+    <!-- 动态输入，用户查询。如果页面有两个框，也就是两个条件查询。用户不一样都填入，只填入一个条件查询，后台就必须进行逻辑处理-->
+    <select id="DongTaiUser" resultType="User"  >
+        select * from smbms_user
+        <where> <!-- where能智能的处理and和or，该有的时候，它就会有，不该有的时候，会自动识别选择剔除进行代码-->
+       <!-- where标签也可以用如下标签进行替换，更加的智能：-->
+            <!--<trim prefix="where" prefixOverrides="and / or "> </trim>-->
+
+                                       <if test="id!=null"> +<!-- 如果id不为空，就按下面条件查询，返回信息。如果为空，就不执行这个条件，然后进入下一个判断条件-->
+                                           and id=#{id}
+                                       </if>
+        <if test="userName!=null and userName!=''"  > <!-- 如果username不为空，就按条件查询，返回信息-->
+            <!-- 如果都不为空，查询条件就是两个条件同时满足查询返回信息。所以and是必须有的-->
+            <!-- 如果都为空，判断没一个条件符合，就不进入。查询的返回信息就是整个信息，*-->
+            <!-- 如果是联合查询，不用where标签，直接写在外面就行了-->
+             and userName=#{userName}
+
+        </if>
+        </where>
+    </select>
+
+
+
+    <!-- choose标签，相当于java中的switch，-->
+    <select id="Choose" resultType="User"  >
+        select * from smbms_user where 1=1
+        <choose> <!-- choose无法自动剔除and，所以要加一个1=1的条件，防止运行时缺少或多余and-->
+
+            <when test="userRole !=null and userRole>1"> <!-- choose标签，相当于java中的switch，代码从上往下，只要符合条件，就跳出choose，即使下面条件也符合，也不进行了。
+            和if不同，if会继续进行   -->
+                and userRole=#{userRole}
+            </when>
+
+            <when test="gender !=null" >
+                and gender=#{gender}
+            </when>
+        </choose>
+    </select>
+
+
+    <!-- 分页查询-->
+    <select id="FenYe" resultType="User"  >
+        select * from smbms_user
+        <where> <!-- where能智能的处理and和or，该有的时候，它就会有，不该有的时候，会自动识别选择剔除进行代码-->
+            <!-- where标签也可以用如下标签进行替换，更加的智能：-->
+            <!--<trim prefix="where" prefixOverrides="and / or "> </trim>-->
+
+            <if test="userRole!=null"> <!-- 如果id不为空，就按下面条件查询，返回信息。如果为空，就不执行这个条件，然后进入下一个判断条件-->
+                and userRole=#{userRole}
+            </if>
+        </where>
+           order by "id" limit #{from},#{page}
+    </select>
+
+
+    <!-- map封装-->
+    <select id="LListUserGetMap" resultType="User"  parameterType="Map"><!-- 就是把查询的条件id和UESRNAME进行map封装-->
+        select * from smbms_user where id=#{id} and userName=#{name}
+    </select>
+
+    <!-- 两个表的联合查询，进行映射-->
+    <resultMap type="User" id="UserList"> <!-- id就是select标签中的resultMap的值，type就是select中的返回类型，还是User，
+    其实resultmap和type都是返回类型，但是为了映射，先给resultmap随意赋值，然后通过id得到这个值-->
+        <!-- property就相当于smbms_user的属性变量名，column就相当于smbms_user表中的列名，只不过roleName在另一个表userRole中，要和smbms_user做映射-->
+<result property="id" column="id"/>
+<result property="userCode" column="userCode"/>
+<result property="userName" column="userName"/>
+<result property="gender" column="gender"/>
+<result property="birthday" column="birthday"/>
+
+<result property="usernameRole" column="roleName"/><!--数据库字段名roleName和对象属性名usernameRole不一致，
+因为查询的roleName在另一个表smbms_role内，和smbms_userJavabean中定义的角色变量不一致，所以要进行映射-->
+        <!-- property="usernameRole" column="roleName"就是一对映射，意思就是说usernameRole和roleName是一回事-->
+    </resultMap>
+    <select id="GetMap" resultMap="UserList"  parameterType="Map">
+        select u.*,r.roleName from smbms_user u,smbms_role r where u.id=#{id} and userName=#{name} and u.userRole=r.id
+    </select>
+    <!-- 这的#{name}中的name一定要和测试方法中的K值对应-->
+
+    <!-- 两个表联合查询，表role作为表user的属性，联合查询两个表中的信息-->
+    <!--<resultMap type="Role" id="LL">-->  <!--这的type返回类型之所以是Role，是因为对Role映射的复用-->
+        <!--<id property="id" column="r_id"/>-->
+        <!--<result property="roleCode" column="roleCode"/>-->
+        <!--<result property="roleName" column="roleName"/>-->
+    <!--</resultMap>-->
+    <resultMap type="User" id="GetList">
+        <!--<result property="id" column="id"/>-->
+        <!--<result property="userCode" column="userCode"/>-->
+        <!--<result property="userName" column="userName"/>-->
+        <!--<result property="gender" column="gender"/>-->
+        <!--<result property="birthday" column="birthday"/>-->
+        <!-- 走到这一步，本来是要映射表user中的属性role的，但是role是一个javabean，所以把它分解开，进行映射。如下-->
+        <association property="role" javaType="Role">  <!-- property就是要映射的user中的属性，javaType就是这个属性的类型-->
+            <id property="id" column="r_id"/>
+            <result property="roleCode" column="roleCode"/>
+            <result property="roleName" column="roleName"/>
+        </association>
+        <!--<association property="role" javaType="Role" resultMap="LL"/>-->
+    </resultMap>
+    <select id="getUserListByRoleId" resultMap="GetList"  parameterType="int">
+        select u.*,r.id as r_id,r.roleCode,r.roleName from smbms_user u,smbms_role r where u.userRole=#{id} and u.userRole=r.id
+<!-- #{id}中的id和接口方法中的参数是一致的,是role表中的id-->
+    </select>
+
+
+    <!-- 插入数据-->
+    <insert id="add" parameterType="User">
+        insert into smbms_user(userCode,userName) value (#{userCode},#{userName})
+    </insert>
+
+    <!-- 修改数据-->
+    <update id="update" parameterType="User">
+        update smbms_user set userCode=#{userCode},userName=#{userName}
+   <!--<set>-->
+       <!--<if test="userCode!=null">userCode=#{userCode},</if>--><!-- 使用set标签，-->
+       <!--<if test="userName">userName=#{userName},</if>-->
+   <!--</set> -->
+        <!--<set>标签也可以换成trim，效果都一样-->
+         <!--<trim prefix="set" prefixOverrides="," suffix="where id=#{id}" >-->
+         <!--<if test="userCode!=null">userCode=#{userCode},</if> 使用set标签，-->
+         <!--<if test="userName">userName=#{userName},</if>-->
+         <!--</trim> -->
+   where id=#{id}
+    </update>
+
+    <!-- 修改数据，接口多参映射，#{userName}中的username要和借口中方法参数的注释中的一致-->
+    <update id="update1" parameterType="User">
+        update smbms_user set userName=#{userName} where id=#{id}
+    </update>
+
+
+
+    <!-- 删除数据-->
+    <delete id="delete" parameterType="User">
+        delete from smbms_user where id=#{id}
+
+    </delete>
+
+</mapper>
