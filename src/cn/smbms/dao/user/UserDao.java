@@ -7,7 +7,7 @@ import java.util.List;
 import java.util.Map;
 
 public interface UserDao {
-    //查询用户数量  nihao hao hao hao hao hao
+    //查询用户数量 ninininini
     int count();//方法名要和mapper中的id名相同，这样接口的方法才能映射，也就是找到mapper要执行的语句
 
        List<User> getListUser();
