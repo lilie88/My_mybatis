@@ -1,0 +1,1146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="smbsm_0321:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="241014b8-00a8-4cbb-bc3b-8518286f781a" name="Default Changelist" comment="测试" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+    <option name="PARALLEL_COMPILATION" value="true" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/cn/smbms/dao/user/UserDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="34" column="22" lean-forward="true" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/cn/smbms/dao/user/TestUserMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3287">
+              <caret line="185" column="41" selection-start-line="185" selection-start-column="41" selection-end-line="185" selection-end-column="41" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#441#442#0" expanded="true" />
+                <element signature="e#485#486#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cn/smbms/pojo/User.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="513">
+              <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cn/smbms/dao/user/UserMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="32" column="13" lean-forward="true" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Tag Library Descriptor" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/cn/smbms/dao/UserMapper.xml" />
+        <option value="$PROJECT_DIR$/src/cn/smbms/UserMapper.xml" />
+        <option value="$PROJECT_DIR$/src/cn/smbms/pojo/Poroider.java" />
+        <option value="$PROJECT_DIR$/src/cn/smbms/utils/MybstisUtil.java" />
+        <option value="$PROJECT_DIR$/src/cn/smbms/mybatis-config.xml" />
+        <option value="$PROJECT_DIR$/test/cn/smbms/dao/user/TesUserMapper.java" />
+        <option value="$PROJECT_DIR$/src/database.properties" />
+        <option value="$PROJECT_DIR$/src/cn/smbms/pojo/Role.java" />
+        <option value="$PROJECT_DIR$/src/cn/smbms/utils/MybatisUtil.java" />
+        <option value="$PROJECT_DIR$/src/mybatis-generator.xml" />
+        <option value="$PROJECT_DIR$/src/mybatis-config.xml" />
+        <option value="$PROJECT_DIR$/src/cn/smbms/dao/user/UserDao.java" />
+        <option value="$PROJECT_DIR$/src/cn/smbms/dao/user/UserMapper.xml" />
+        <option value="$PROJECT_DIR$/src/cn/smbms/pojo/User.java" />
+        <option value="$PROJECT_DIR$/test/cn/smbms/dao/user/TestUserMapper.java" />
+      </list>
+    </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="F:\develop\mavenck" />
+        <option name="mavenHome" value="E:/../maven-3.6.0" />
+        <option name="userSettingsFile" value="F:\develop\maven-3.6.0\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="downloadAnnotationsAutomatically" value="true" />
+        <option name="downloadDocsAutomatically" value="true" />
+        <option name="downloadSourcesAutomatically" value="true" />
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="1.8" />
+    <option name="mavenProperties">
+      <map>
+        <entry key="archetypeCatalog" value="internal" />
+      </map>
+    </option>
+    <option name="vmOptions" value="-Dmaven.multiModuleProjectDirectory=$MAVEN_HOME" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-10" />
+    <option name="y" value="-10" />
+    <option name="width" value="695" />
+    <option name="height" value="560" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="My_mybatis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="My_mybatis" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="My_mybatis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="My_mybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="My_mybatis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="My_mybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="smbms" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="My_mybatis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="My_mybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="smbms" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="My_mybatis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="My_mybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="smbms" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="My_mybatis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="My_mybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="smbms" type="462c0819:PsiDirectoryNode" />
+              <item name="pojo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="My_mybatis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="My_mybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="smbms" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="My_mybatis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="My_mybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="My_mybatis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="My_mybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="My_mybatis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="My_mybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="My_mybatis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="My_mybatis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="架包" type="70bed36:NamedLibraryElementNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567932802793" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\develop\code\ideaCode\smbsm_0321\src" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.TestUserMapper.DongUserList">
+    <configuration name="TestUserMapper.DongUserList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="smbsm_0321" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.smbms.dao.user.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.smbms.dao.user" />
+      <option name="MAIN_CLASS_NAME" value="cn.smbms.dao.user.TestUserMapper" />
+      <option name="METHOD_NAME" value="DongUserList" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestUserMapper.FenYeList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="smbsm_0321" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.smbms.dao.user.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.smbms.dao.user" />
+      <option name="MAIN_CLASS_NAME" value="cn.smbms.dao.user.TestUserMapper" />
+      <option name="METHOD_NAME" value="FenYeList" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestUserMapper.UserList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="smbsm_0321" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.smbms.dao.user.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.smbms.dao.user" />
+      <option name="MAIN_CLASS_NAME" value="cn.smbms.dao.user.TestUserMapper" />
+      <option name="METHOD_NAME" value="UserList" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestUserMapper.UserListMap" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="smbsm_0321" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.smbms.dao.user.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.smbms.dao.user" />
+      <option name="MAIN_CLASS_NAME" value="cn.smbms.dao.user.TestUserMapper" />
+      <option name="METHOD_NAME" value="UserListMap" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestUserMapper.add" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="smbsm_0321" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.smbms.dao.user.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.smbms.dao.user" />
+      <option name="MAIN_CLASS_NAME" value="cn.smbms.dao.user.TestUserMapper" />
+      <option name="METHOD_NAME" value="add" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <module name="My_Mybatis" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <module name="My_Mybatis" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tomcat 8.5.38" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.38" ALTERNATIVE_JRE_ENABLED="false">
+      <deployment>
+        <artifact name="smbsm_0321:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/smbsm_0321_war_exploded" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Tomcat_8_5_38_My_mybatis" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="smbsm_0321:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TestUserMapper.DongUserList" />
+        <item itemvalue="JUnit.TestUserMapper.add" />
+        <item itemvalue="JUnit.TestUserMapper.UserListMap" />
+        <item itemvalue="JUnit.TestUserMapper.UserList" />
+        <item itemvalue="JUnit.TestUserMapper.FenYeList" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="241014b8-00a8-4cbb-bc3b-8518286f781a" name="Default Changelist" comment="" />
+      <created>1553133008623</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1553133008623</updated>
+      <workItem from="1553133011475" duration="4372000" />
+      <workItem from="1553139023159" duration="1971000" />
+      <workItem from="1553141003326" duration="6067000" />
+      <workItem from="1553167572923" duration="56000" />
+      <workItem from="1553168059528" duration="801000" />
+      <workItem from="1553235300320" duration="32000" />
+      <workItem from="1553235338559" duration="986000" />
+      <workItem from="1553238817169" duration="1805000" />
+      <workItem from="1553244217972" duration="1878000" />
+      <workItem from="1553247451289" duration="5444000" />
+      <workItem from="1553301595203" duration="6215000" />
+      <workItem from="1553399827548" duration="597000" />
+      <workItem from="1553560257360" duration="39653000" />
+      <workItem from="1553653943270" duration="24395000" />
+      <workItem from="1553734418209" duration="25856000" />
+      <workItem from="1553828436555" duration="12836000" />
+      <workItem from="1553867099559" duration="2361000" />
+      <workItem from="1553906507950" duration="4228000" />
+      <workItem from="1553919522061" duration="8808000" />
+      <workItem from="1554005874690" duration="3807000" />
+      <workItem from="1554088552122" duration="3290000" />
+      <workItem from="1554165442090" duration="1206000" />
+      <workItem from="1554261574600" duration="1253000" />
+      <workItem from="1554338561195" duration="3447000" />
+      <workItem from="1554431605888" duration="5858000" />
+      <workItem from="1554457147850" duration="3247000" />
+      <workItem from="1554511418254" duration="10019000" />
+      <workItem from="1554943225320" duration="592000" />
+      <workItem from="1555044333943" duration="3717000" />
+      <workItem from="1555116125111" duration="3019000" />
+      <workItem from="1555296462765" duration="1206000" />
+      <workItem from="1555320960783" duration="599000" />
+      <workItem from="1555335807637" duration="822000" />
+      <workItem from="1555376358685" duration="3846000" />
+      <workItem from="1555472634115" duration="598000" />
+      <workItem from="1555547898902" duration="596000" />
+      <workItem from="1555646950727" duration="2171000" />
+      <workItem from="1555722573214" duration="2013000" />
+      <workItem from="1555821714958" duration="596000" />
+      <workItem from="1555904310685" duration="595000" />
+      <workItem from="1555981865256" duration="593000" />
+      <workItem from="1556072259330" duration="590000" />
+      <workItem from="1556158943933" duration="1221000" />
+      <workItem from="1556253620895" duration="596000" />
+      <workItem from="1556338228761" duration="596000" />
+      <workItem from="1556422591715" duration="599000" />
+      <workItem from="1556519319611" duration="4378000" />
+      <workItem from="1557118292871" duration="597000" />
+      <workItem from="1558149077021" duration="13299000" />
+      <workItem from="1558238346929" duration="3705000" />
+      <workItem from="1558328368921" duration="599000" />
+      <workItem from="1558412599664" duration="598000" />
+      <workItem from="1558493647034" duration="598000" />
+      <workItem from="1558582517764" duration="1206000" />
+      <workItem from="1558670137912" duration="597000" />
+      <workItem from="1558752784167" duration="598000" />
+      <workItem from="1558835413653" duration="5436000" />
+      <workItem from="1558851195811" duration="1388000" />
+      <workItem from="1558852727561" duration="2839000" />
+      <workItem from="1558925007364" duration="6218000" />
+      <workItem from="1559010535067" duration="1891000" />
+      <workItem from="1559097187035" duration="2368000" />
+      <workItem from="1559190678475" duration="1960000" />
+      <workItem from="1559534936868" duration="1602000" />
+      <workItem from="1559625975053" duration="599000" />
+      <workItem from="1559702312955" duration="596000" />
+      <workItem from="1559788801336" duration="1797000" />
+      <workItem from="1559877666093" duration="592000" />
+      <workItem from="1559964813181" duration="586000" />
+      <workItem from="1559992152443" duration="591000" />
+      <workItem from="1560050432379" duration="1857000" />
+      <workItem from="1560132747228" duration="1783000" />
+      <workItem from="1560151406654" duration="1094000" />
+      <workItem from="1560221021908" duration="2304000" />
+      <workItem from="1560313676288" duration="29000" />
+      <workItem from="1560313787814" duration="945000" />
+      <workItem from="1560398252224" duration="1842000" />
+      <workItem from="1560479555580" duration="531000" />
+      <workItem from="1560574437705" duration="582000" />
+      <workItem from="1560671460576" duration="580000" />
+      <workItem from="1560751015646" duration="590000" />
+      <workItem from="1560841713214" duration="594000" />
+      <workItem from="1560920456979" duration="1192000" />
+      <workItem from="1561007123310" duration="1194000" />
+      <workItem from="1561088666651" duration="1778000" />
+      <workItem from="1561179221816" duration="589000" />
+      <workItem from="1561439189875" duration="592000" />
+      <workItem from="1561443058700" duration="591000" />
+      <workItem from="1561534703682" duration="592000" />
+      <workItem from="1561614022493" duration="574000" />
+      <workItem from="1561624757701" duration="585000" />
+      <workItem from="1561695225154" duration="596000" />
+      <workItem from="1561782731131" duration="591000" />
+      <workItem from="1561876408212" duration="900000" />
+      <workItem from="1561953189247" duration="590000" />
+      <workItem from="1562043419606" duration="1459000" />
+      <workItem from="1562227476247" duration="579000" />
+      <workItem from="1562300172431" duration="1074000" />
+      <workItem from="1562385148276" duration="592000" />
+      <workItem from="1562557332818" duration="593000" />
+      <workItem from="1562576879383" duration="588000" />
+      <workItem from="1562581212621" duration="593000" />
+      <workItem from="1562639086429" duration="594000" />
+      <workItem from="1562671611593" duration="1193000" />
+      <workItem from="1562736483035" duration="594000" />
+      <workItem from="1562814364757" duration="583000" />
+      <workItem from="1562992780860" duration="583000" />
+      <workItem from="1563081572012" duration="595000" />
+      <workItem from="1563088969950" duration="587000" />
+      <workItem from="1563173696187" duration="588000" />
+      <workItem from="1563253007786" duration="591000" />
+      <workItem from="1563862031988" duration="591000" />
+      <workItem from="1564386637870" duration="592000" />
+      <workItem from="1564460457053" duration="591000" />
+      <workItem from="1564548585788" duration="1225000" />
+      <workItem from="1564635887366" duration="595000" />
+      <workItem from="1564820396236" duration="597000" />
+      <workItem from="1564896534710" duration="594000" />
+      <workItem from="1564996444001" duration="593000" />
+      <workItem from="1565066423880" duration="596000" />
+      <workItem from="1565155403154" duration="591000" />
+      <workItem from="1565192746971" duration="593000" />
+      <workItem from="1565245016942" duration="814000" />
+      <workItem from="1565598816487" duration="1460000" />
+      <workItem from="1565660256542" duration="596000" />
+      <workItem from="1565705159808" duration="591000" />
+      <workItem from="1565751836016" duration="594000" />
+      <workItem from="1565845782670" duration="591000" />
+      <workItem from="1566181931519" duration="590000" />
+      <workItem from="1566460377821" duration="592000" />
+      <workItem from="1566519020627" duration="589000" />
+      <workItem from="1566716835449" duration="597000" />
+      <workItem from="1566795783366" duration="598000" />
+      <workItem from="1566866097886" duration="587000" />
+      <workItem from="1567153464131" duration="599000" />
+      <workItem from="1567310881652" duration="598000" />
+      <workItem from="1567379491621" duration="576000" />
+      <workItem from="1567476369738" duration="592000" />
+      <workItem from="1567566039792" duration="7299000" />
+      <workItem from="1567917086900" duration="2674000" />
+    </task>
+    <task id="LOCAL-00001" summary="测试">
+      <created>1567930269023</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1567930269023</updated>
+    </task>
+    <task id="LOCAL-00002" summary="测试">
+      <created>1567930393493</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1567930393493</updated>
+    </task>
+    <task id="LOCAL-00003" summary="测试">
+      <created>1567930755558</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1567930755558</updated>
+    </task>
+    <task id="LOCAL-00004" summary="测试">
+      <created>1567930828271</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1567930828271</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="TestUserMapper_UserListMap - 2019.05.18 at 16h 21m 47s.xml">
+      <configuration name="TestUserMapper.UserListMap" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestUserMapper_UserListMap - 2019.05.18 at 16h 22m 16s.xml">
+      <configuration name="TestUserMapper.UserListMap" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestUserMapper_add - 2019.05.18 at 16h 25m 55s.xml">
+      <configuration name="TestUserMapper.add" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestUserMapper_add - 2019.05.18 at 16h 26m 44s.xml">
+      <configuration name="TestUserMapper.add" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestUserMapper_add - 2019.05.18 at 16h 27m 28s.xml">
+      <configuration name="TestUserMapper.add" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestUserMapper_DongUserList - 2019.05.18 at 16h 30m 12s.xml">
+      <configuration name="TestUserMapper.DongUserList" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestUserMapper_DongUserList - 2019.05.18 at 16h 32m 33s.xml">
+      <configuration name="TestUserMapper.DongUserList" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestUserMapper_DongUserList - 2019.05.18 at 16h 32m 48s.xml">
+      <configuration name="TestUserMapper.DongUserList" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestUserMapper_DongUserList - 2019.05.18 at 16h 33m 13s.xml">
+      <configuration name="TestUserMapper.DongUserList" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestUserMapper_DongUserList - 2019.05.26 at 16h 51m 49s.xml">
+      <configuration name="TestUserMapper.DongUserList" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="321867000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19906166" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2135785" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.3286119" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.3286119" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.3286119" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="bottom" id="Version Control" order="13" weight="0.3286119" />
+      <window_info anchor="bottom" id="Messages" order="14" weight="0.32956153" />
+      <window_info anchor="bottom" id="Problems" order="15" weight="0.031161472" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.32963988" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Theme Preview" order="7" />
+      <window_info anchor="right" id="Database" order="8" weight="0.3297587" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24597855" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32107496" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Application Servers" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="bottom" id="Version Control" order="13" />
+      <window_info anchor="bottom" id="Messages" order="14" weight="0.32956153" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.32963988" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Theme Preview" order="7" />
+      <window_info anchor="right" id="Database" order="8" weight="0.3297587" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="测试" />
+    <option name="LAST_COMMIT_MESSAGE" value="测试" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/cn/smbms/utils/MybatisUtil.java</url>
+          <line>15</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/test/cn/smbms/dao/user/TestUserMapper.java</url>
+          <line>16</line>
+          <properties />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/test/cn/smbms/dao/user/TestUserMapper.java</url>
+          <line>173</line>
+          <properties />
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/test/cn/smbms/dao/user/TestUserMapper.java</url>
+          <line>220</line>
+          <properties />
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/test/cn/smbms/dao/user/TestUserMapper.java</url>
+          <line>205</line>
+          <properties />
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/test/cn/smbms/dao/user/TestUserMapper.java</url>
+          <line>98</line>
+          <properties />
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/test/cn/smbms/dao/user/TestUserMapper.java</url>
+          <line>126</line>
+          <properties />
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/test/cn/smbms/dao/user/TestUserMapper.java</url>
+          <line>99</line>
+          <properties />
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/test/cn/smbms/dao/user/TestUserMapper.java</url>
+          <line>90</line>
+          <properties />
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/test/cn/smbms/dao/user/TestUserMapper.java</url>
+          <line>140</line>
+          <properties class="cn.smbms.dao.user.TestUserMapper" method="add">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/test/cn/smbms/dao/user/TestUserMapper.java</url>
+          <line>197</line>
+          <properties class="cn.smbms.dao.user.TestUserMapper" method="UserListMap">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/test/cn/smbms/dao/user/TestUserMapper.java</url>
+          <line>46</line>
+          <properties class="cn.smbms.dao.user.TestUserMapper" method="tstrList">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/test/cn/smbms/dao/user/TestUserMapper.java</url>
+          <line>113</line>
+          <properties class="cn.smbms.dao.user.TestUserMapper" method="ChooseList">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/test/cn/smbms/dao/user/TestUserMapper.java</url>
+          <line>26</line>
+          <properties class="cn.smbms.dao.user.TestUserMapper" method="testUserList">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/test/cn/smbms/dao/user/TestUserMapper.java</url>
+          <line>153</line>
+          <properties class="cn.smbms.dao.user.TestUserMapper" method="update">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/test/cn/smbms/dao/user/TestUserMapper.java</url>
+          <line>165</line>
+          <properties class="cn.smbms.dao.user.TestUserMapper" method="update1">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/test/cn/smbms/dao/user/TestUserMapper.java</url>
+          <line>100</line>
+          <properties class="cn.smbms.dao.user.TestUserMapper" method="DongUserList">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/cn/smbms/dao/user/UserDao.java</url>
+          <line>20</line>
+          <properties class="cn.smbms.dao.user.UserDao" method="DongTaiUser">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/cn/smbms/dao/user/UserDao.java</url>
+          <line>14</line>
+          <properties class="cn.smbms.dao.user.UserDao" method="ListUser">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/cn/smbms/UserDao.java" />
+    <entry file="file://$PROJECT_DIR$/src/cn/smbms/dao/df.java" />
+    <entry file="file://$PROJECT_DIR$/test/cn/smbms/TestUserMapper.java" />
+    <entry file="file://$PROJECT_DIR$/src/database" />
+    <entry file="jar://E:/../jar/mybatis-3.2.2-sources.jar!/org/apache/ibatis/io/Resources.java" />
+    <entry file="file://$PROJECT_DIR$/src/grggrgr.xml" />
+    <entry file="file://$PROJECT_DIR$/log.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smbsm_0321.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://F:/微信文档/WeChat Files/lbw666_666/Files/架包/junit-4.12.jar!/org/junit/internal/builders/AllDefaultPossibilitiesBuilder.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="e#0#1015#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/smbms/UserMapper.xml" />
+    <entry file="file://$PROJECT_DIR$/test/hfkjahf.java" />
+    <entry file="file://$PROJECT_DIR$/src/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="30" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/微信文档/WeChat Files/lbw666_666/Files/架包/mybatis-3.2.2.jar!/org/apache/ibatis/builder/xml/mybatis-3-config.dtd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vddvs.properties" />
+    <entry file="file://$PROJECT_DIR$/src/mybatis-generator.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/smbms/pojo/Poroider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="35" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
+          <folding>
+            <element signature="e#536#537#0" expanded="true" />
+            <element signature="e#561#562#0" expanded="true" />
+            <element signature="e#598#599#0" expanded="true" />
+            <element signature="e#626#627#0" expanded="true" />
+            <element signature="e#660#661#0" expanded="true" />
+            <element signature="e#690#691#0" expanded="true" />
+            <element signature="e#736#737#0" expanded="true" />
+            <element signature="e#774#775#0" expanded="true" />
+            <element signature="e#808#809#0" expanded="true" />
+            <element signature="e#838#839#0" expanded="true" />
+            <element signature="e#884#885#0" expanded="true" />
+            <element signature="e#922#923#0" expanded="true" />
+            <element signature="e#956#957#0" expanded="true" />
+            <element signature="e#986#987#0" expanded="true" />
+            <element signature="e#1032#1033#0" expanded="true" />
+            <element signature="e#1070#1071#0" expanded="true" />
+            <element signature="e#1107#1108#0" expanded="true" />
+            <element signature="e#1140#1141#0" expanded="true" />
+            <element signature="e#1192#1193#0" expanded="true" />
+            <element signature="e#1236#1237#0" expanded="true" />
+            <element signature="e#1271#1272#0" expanded="true" />
+            <element signature="e#1302#1303#0" expanded="true" />
+            <element signature="e#1350#1351#0" expanded="true" />
+            <element signature="e#1390#1391#0" expanded="true" />
+            <element signature="e#1427#1428#0" expanded="true" />
+            <element signature="e#1460#1461#0" expanded="true" />
+            <element signature="e#1512#1513#0" expanded="true" />
+            <element signature="e#1556#1557#0" expanded="true" />
+            <element signature="e#1589#1590#0" expanded="true" />
+            <element signature="e#1618#1619#0" expanded="true" />
+            <element signature="e#1662#1663#0" expanded="true" />
+            <element signature="e#1698#1699#0" expanded="true" />
+            <element signature="e#1735#1736#0" expanded="true" />
+            <element signature="e#1767#1768#0" expanded="true" />
+            <element signature="e#1818#1819#0" expanded="true" />
+            <element signature="e#1860#1861#0" expanded="true" />
+            <element signature="e#1897#1898#0" expanded="true" />
+            <element signature="e#1932#1933#0" expanded="true" />
+            <element signature="e#1986#1987#0" expanded="true" />
+            <element signature="e#2034#2035#0" expanded="true" />
+            <element signature="e#2070#2071#0" expanded="true" />
+            <element signature="e#2101#2102#0" expanded="true" />
+            <element signature="e#2150#2151#0" expanded="true" />
+            <element signature="e#2190#2191#0" expanded="true" />
+            <element signature="e#2225#2226#0" expanded="true" />
+            <element signature="e#2258#2259#0" expanded="true" />
+            <element signature="e#2308#2309#0" expanded="true" />
+            <element signature="e#2352#2353#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/smbms/pojo/Role.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="34" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mybatis-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="21" lean-forward="true" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/database.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="15" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/smbms/utils/MybatisUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="21" column="94" selection-start-line="21" selection-start-column="94" selection-end-line="21" selection-end-column="94" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/cn/smbms/dao/user/TestUserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3287">
+          <caret line="185" column="41" selection-start-line="185" selection-start-column="41" selection-end-line="185" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#441#442#0" expanded="true" />
+            <element signature="e#485#486#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/smbms/pojo/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/smbms/dao/user/UserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="32" column="13" lean-forward="true" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/smbms/dao/user/UserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="34" column="22" lean-forward="true" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>smbsm_0321:war exploded</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Web</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>jar</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>smbsm_0321</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>架包</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

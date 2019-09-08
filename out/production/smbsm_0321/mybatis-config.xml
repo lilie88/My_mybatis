@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+
+<configuration><!-- 配置文件的总的根节点，下面的都是子节点-->
+    <!-- 引入配置properties文件，只有创建mybatis配置文件，才能链接数据库的用户名，密码-->
+    <properties resource="database.properties"></properties><!--这如果有properties的子节点，resource的优先级高于子节点-->
+
+    <settings><!-- 设置，这的节点顺序必须标准-->
+        <setting name="logImpl" value="LOG4J"/>
+        <!--<setting name="autoMappingBehavior" value="NONE"/>&lt;!&ndash; 禁止的自动匹配，mapper映射文件不能自动匹配数据库字段名和对象属性名一致,只能手动匹配&ndash;&gt;-->
+        <setting name="autoMappingBehavior" value="FULL"/><!-- 禁止的自动匹配，mapper映射文件不能自动匹配数据库字段名和对象属性名一致-->
+    </settings>
+
+    <typeAliases>
+        <!--<typeAlias type="cn.smbms.pojo.User" alias="user"/>&lt;!&ndash; 这的type就是mapper中查询语句中的返回类型，alias就是给返回类型起的别名&ndash;&gt;-->
+        <package name="cn.smbms.pojo"/><!-- 如果是多个javabean，那就用这个标签，自动识别包名，然后在mapper中的返回类型直接写对象名就行-->
+    </typeAliases>
+
+    <!-- 配置多套运行环境，通过environments，可以有多个environment-->
+    <environments default="development"> <!-- 默认环境，通过defalt找到id-->
+        <environment id="development">
+            <transactionManager type="JDBC"></transactionManager><!-- jdbc的事务管理，也就是配置事务的提交方法。也是手工方式，commit， rollrock，close。
+            managed是交给其他组件去托管（spring，jobss），默认会关闭连接。如果不想自动关，那就加一个标签<property name="closeconnection" value="flase">-->
+            <dataSource type="POOLED"><!--mybatis自带的数据源是pooled，tomcat的数据源是jdni -->
+                <!-- 配置数据库信息-->
+                <property name="driver" value="${driver}"/><!-- value是数据库配置文件，database。properties中的v值-->
+                <property name="url" value="${url}"/>
+                <property name="username" value="${user}"/>
+                <property name="password" value="${password}"/>
+            </dataSource>
+        </environment>
+    </environments>
+    <!-- 加载映射文件-->
+    <mappers>
+        <mapper resource="cn/smbms/dao/user/UserMapper.xml"/>
+    </mappers>
+</configuration>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE generatorConfiguration
+        PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN"
+        "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">
+<!--最大的节点-->
+<generatorConfiguration>
+    <classPathEntry location="/Program Files/IBM/SQLLIB/java/db2java.zip" /><!--jdbc架包的路径位置-->
+
+    <context id="DB2Tables" targetRuntime="MyBatis3">
+        <jdbcConnection driverClass="COM.ibm.db2.jdbc.app.DB2Driver"
+                        connectionURL="jdbc:db2:TEST"
+                        userId="db2admin"
+                        password="db2admin">
+        </jdbcConnection>
+
+        <javaTypeResolver >
+            <property name="forceBigDecimals" value="false" />
+        </javaTypeResolver>
+        <!--targetPackage是生成目标，这项目应该是cn.smbms.pojo,targetProject是目标的路径位置，也就是cn.smbms.pojo的位置-->
+        <javaModelGenerator targetPackage="test.model" targetProject="\MBGTestProject\src">
+            <property name="enableSubPackages" value="true" />
+            <property name="trimStrings" value="true" />
+        </javaModelGenerator>
+        <!--这里的targetPackage的生成目标是mapper，targetProject是mapper文件的项目路径位置，并不是包的路径位置。也就是说mapper配置文件要生成在src下面的一个资源包下面-->
+        <sqlMapGenerator targetPackage="test.xml"  targetProject="\MBGTestProject\src">
+            <property name="enableSubPackages" value="true" />
+        </sqlMapGenerator>
+        这是生成目标接口，type默认，targetPackage是接口的包的位置，targetProject是项目路径，也就是targetPackage的的项目路径，一层一层往上。
+        <javaClientGenerator type="XMLMAPPER" targetPackage="test.dao"  targetProject="\MBGTestProject\src">
+            <property name="enableSubPackages" value="true" />
+        </javaClientGenerator>
+
+        <table schema="DB2ADMIN" tableName="ALLTYPES" domainObjectName="Customer" >
+            <property name="useActualColumnNames" value="true"/>
+            <generatedKey column="ID" sqlStatement="DB2" identity="true" />
+            <columnOverride column="DATE_FIELD" property="startDate" />
+            <ignoreColumn column="FRED" />
+            <columnOverride column="LONG_VARCHAR_FIELD" jdbcType="VARCHAR" />
+        </table>
+
+    </context>
+</generatorConfiguration>
